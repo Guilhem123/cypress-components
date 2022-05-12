@@ -7,7 +7,7 @@
 /// <reference types="cypress" />
 context('smartTag', () => {
     beforeEach(() => {
-           cy.visit('../../components/tailwindcss-components/components/smart-tag.html');
+           cy.visit('./../../components/tailwindcss-components/components/smart-tag.html');
        });
    
        it('smartTag', () => {

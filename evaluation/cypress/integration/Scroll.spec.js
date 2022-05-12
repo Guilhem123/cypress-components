@@ -8,7 +8,7 @@
 
 context('Scroll', () => {
     beforeEach(() => {
-           cy.visit('../../components/tailwindcss-components/components/scroll-to-top.html');
+           cy.visit('./../../components/tailwindcss-components/components/scroll-to-top.html');
        });
    
        it('Scroll', () => {

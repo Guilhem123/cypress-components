@@ -7,7 +7,7 @@
 /// <reference types="cypress" />
 context('ToDo List', () => {
     beforeEach(() => {
-           cy.visit('../../components/alpinejs-todolist/app/index.html');
+           cy.visit('./../../components/alpinejs-todolist/app/index.html');
        });
    
        it('ToDo List', () => {

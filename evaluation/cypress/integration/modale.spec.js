@@ -8,7 +8,7 @@
 
 context('Lorem Ipsum', () => {
  beforeEach(() => {
-        cy.visit('../../components/tailwindcss-components/components/modal.html');
+        cy.visit('./../../components/tailwindcss-components/components/modal.html');
     });
 
     it('h2 should have text Lorem Ipsum', () => {
